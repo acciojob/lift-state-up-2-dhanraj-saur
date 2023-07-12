@@ -1,1 +1,17 @@
-
+.parent{
+    margin: 20px;
+    padding: 40px;
+    background-color: lightgreen;
+}
+.child{
+    background-color: tomato;
+    height: 90px;
+}
+.child h3{
+    margin-left: 10px;
+}
+.child input{
+    margin-left: 10px;
+    margin-top: 16px;
+    height: 25px;
+}
