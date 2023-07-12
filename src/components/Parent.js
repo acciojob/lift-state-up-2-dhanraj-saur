@@ -3,9 +3,8 @@ import Child from './Child';
 
 const Parent = () => {
     let [value, setValue] = useState("")
-
+    
     const handleChange = (text) => {
-       
         setValue(text)
     }
     return (
@@ -16,7 +15,6 @@ const Parent = () => {
             <p> {value}</p>
             <Child changeText={handleChange} />
         </div>
-
     )
 }
 
